@@ -15,7 +15,7 @@
   - You will use the same repo throughout the whole week, adding more code, and changing things here and there as you learn new principles and techniques.
   - It will be important to communicate any problems you're having to your Project Manager so that we can make sure to get you un-stuck along the way as soon as possible.
   - The goal is to finish each day's objectives, and have a working project to start with on the next day.
-  - If you don't get the daily objectives, don't panic, some days will be easier for you than others and some days will be harder.
+  - If you don't get the daily objectives,  panic, some days will be easier for you than others and some days will be harder.
   - The hope is that by the end of the week, you'll have seen a react application come to life, and you'll start to see how react works at a higher level.
 
 - For this project, you'll be building a simple Instagram clone using React.
