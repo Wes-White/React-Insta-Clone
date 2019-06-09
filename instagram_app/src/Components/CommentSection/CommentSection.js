@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import './CommentSection.css';
 
 
 function CommentSection (props) {
@@ -10,12 +9,16 @@ function CommentSection (props) {
     <img src={props.eachPost.thumbnailUrl} alt="thumbnail" />
     <h2>{props.eachPost.username}</h2>
 </div>
-<img src={props.eachPost.imageUrl} alt="imageurl" />
+<img src={props.eachPost.imageUrl} alt="imageurl" className='postImage'/>
 <div className="likesComments">
-    <img src="https://img.icons8.com/windows/30/000000/hearts.png"></img>
-    <img src="https://img.icons8.com/metro/25/000000/topic.png"></img>
+    <img src="https://img.icons8.com/ios/30/000000/like.png"></img>
+    <img src="https://img.icons8.com/ios/30/000000/topic.png"></img>
 </div>
-<p className="likes">{props.eachPost.likes} likes</p>
+<div className='counter'>
+    <p className="likes">{props.eachPost.likes} likes</p>
+</div>
+
+
 
 <input type="text" placeHolder="Add a comment..." onChange={props.inputHandler} value={props.input}></input>
 </div>

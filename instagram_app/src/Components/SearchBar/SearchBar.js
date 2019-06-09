@@ -19,9 +19,9 @@ function SearchBar(props) {
                 <Button variant="light">Search</Button>
                 </Form>
                 <Nav>
-                    <Nav.Link className='p-2 bd-highlight' href="#location"><img src="https://img.icons8.com/ios/32/000000/compass.png" alt='compass'></img></Nav.Link>
-                    <Nav.Link className='p-2 bd-highlight' href="#heart"><img src="https://img.icons8.com/windows/32/000000/hearts.png" alt='heart'></img></Nav.Link>
-                    <Nav.Link className='p-2 bd-highlight'href="#user"><img src="https://img.icons8.com/ios/32/000000/gender-neutral-user.png" alt='user'></img></Nav.Link>
+                    <Nav.Link className='p-2 bd-highlight' href="#location"><img src="https://img.icons8.com/office/30/000000/adventures.png" alt='compass'></img></Nav.Link>
+                    <Nav.Link className='p-2 bd-highlight' href="#heart"><img src="https://img.icons8.com/office/32/000000/like.png" alt='heart'></img></Nav.Link>
+                    <Nav.Link className='p-2 bd-highlight'href="#user"><img src="https://img.icons8.com/dusk/32/000000/administrator-male.png" alt='user'></img></Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
