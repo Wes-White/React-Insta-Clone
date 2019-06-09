@@ -4,6 +4,7 @@ import dummyData from '../src/dummy-data';
 import SearchBar from './Components/SearchBar/SearchBar';
 import PostContainer from './Components/PostContainer/PostContainer';
 
+
 class App extends React.Component {
   constructor(){
     super()
@@ -15,8 +16,9 @@ class App extends React.Component {
     return (
       <div className="App">
           <SearchBar data={this.state.data} />
-          <PostContainer data={this.state.data} />
-      </div>
+          <PostContainer data= {this.state.data} />
+          
+          </div>
     );
   }
 
