@@ -1,0 +1,15 @@
+
+.writing { 
+    height: 80px; 
+   
+}
+
+.search { 
+    margin: 0 auto;
+}
+
+input.form-control { 
+    width: 350px!important;
+    margin: 10px;
+}
+
